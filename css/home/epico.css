@@ -1,0 +1,78 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.epico-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.epico {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.epico-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.epico-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.epico-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.epico-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.epico a {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+  .epico-bg {
+    box-shadow: initial;
+  }
+  .epico {
+    grid-template-columns: 1fr;
+  }
+  .epico-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .epico a {
+    margin-bottom: 60px;
+  }
+}
+
+.link {
+  display: inline-block;
+  color: var(--cor-p1);
+  font: 500 1.5rem/1.5 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.link:hover {
+  color: var(--cor-0);
+}
+

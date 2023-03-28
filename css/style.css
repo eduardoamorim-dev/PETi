@@ -1,0 +1,21 @@
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+
+/* Home */
+@import "./home/introducao.css";
+@import "./home/epico.css";
+@import "./home/parceiros.css";
+@import "./home/citacao.css";
+
+/* Ensino-Pesquisa-Extensão */
+@import "./areas/areas-lista.css";
+
+
+
+
+
